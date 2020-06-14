@@ -6,8 +6,8 @@ const Child = (props) => {
     console.log(counterValue)
     return (
         <div>
-            <h3>My name is {props.name}</h3>
-            <h1>FIRST CHILD USING <mark>Context API</mark></h1>
+            <h1>My name is {props.name}</h1>
+            <h2>FIRST CHILD USING <mark>Context API</mark></h2>
             <h4>Value is {counterValue[0]}</h4>
 
             <button onClick={() => {counterValue[1](++counterValue[0]) }}>
